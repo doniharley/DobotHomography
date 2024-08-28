@@ -1,4 +1,4 @@
-# DobotHomography
+# Dobot Homography
 
 Berikut adalah panduan lengkap mencakup semua langkah untuk menyiapkan ROS Melodic, instalasi driver, dan menjalankan proyek Dobot dengan RViz dan PythonUI.
 
@@ -209,7 +209,7 @@ Gantilah `/dev/ttyCH343USB0` dengan nama perangkat yang sesuai jika berbeda.
 
 
 
-## 8. Menjalankan Dobot Server
+## 7. Menjalankan Dobot Server
 
 Setelah semua diatur, mulailah `roscore` dan node `DobotServer` dengan perintah berikut:
 
@@ -227,7 +227,7 @@ roscore &
 rosrun dobot DobotServer /dev/ttyCH343USB0
 ```
 
-## 7. Menambahkan Rospkg atau RosPy dan tkinter
+## 8. Menambahkan Rospkg atau RosPy dan tkinter
 
 Sebelum menjalankan `main.py`, pastikan Anda telah menambahkan pustaka `ropkg` atau `rospy`, yang diperlukan untuk menggunakan pustaka ROS di Python. Instal pustaka ini dengan perintah berikut:
 
@@ -266,7 +266,9 @@ python PythonUI.py
 Gantilah `/path/to/your/python/script` dengan jalur aktual di mana `PythonUI.py` berada.
 
 **![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8-yX4_WMW13iEItzV9yKYxzHLSN-jMQI3uauDUc1vFimsGcwwdpoDP694IVotBz0QmPKJSHllFTBc1LgSD4kJqq-eSYg2tCQE7EcRxJqHA509bVZnQv3s-FvEned9GUsNXOPJVCWMi7-4zCkPnGrDF6o?key=xi09SMKGetAa6D1tbP737A)**
-**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf76d7v-m7ZBAoPoh95CJ8HLg9gouPZXrMqWHEADKIet0G9AK1oG3ENvvHsW2R2HluDpW_o_NTOI_LSTNdH39NxoGQHtbSCPbe5uReQk5y5Ss3FmoSnLNaG79mRXZjEVlfBTqgsLKrCkQ-U2pViJVBnr_B4?key=xi09SMKGetAa6D1tbP737A)**
+**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf76d7v-m7ZBAoPoh95CJ8HLg9gouPZXrMqWHEADKIet0G9AK1oG3ENvvHsW2R2HluDpW_o_NTOI_LSTNdH39NxoGQHtbSCPbe5uReQk5y5Ss3FmoSnLNaG79mRXZjEVlfBTqgsLKrCkQ-U2pViJVBnr_B4?key=xi09SMKGetAa6D1tbP737A)
+
+**
 tampilan PythonUI di linux dan berikut fitur-fitur yang ada:
 
 - **SetPTPParams** untuk mengatur akselerasi dan kecepatan gerakan lengan robot.
@@ -280,6 +282,13 @@ tampilan PythonUI di linux dan berikut fitur-fitur yang ada:
 ## 10. Menjalankan Program Utama
 
 Sekarang, setelah semuanya siap, Anda bisa mulai menggunakan program utama dengan berinteraksi melalui UI yang disediakan oleh `PythonUI.py`.
+
+SOP Menjalankan main.py
+- Pastikan Semua Terpasang: Pastikan ref1.jpg dan ref2.jpg, serta video capture sudah diatur ke webcam.
+- Jalankan ROS: Pastikan roscore dan DobotServer sudah berjalan.
+- Jalankan main.py: Jalankan main.py dan tekan tombol "i" untuk memulai.
+- Ulangi Deteksi: Tekan "r" untuk mengulang deteksi jika diperlukan.
+- Keluar: Tekan "q" untuk keluar dari program.
 
 ---
 
