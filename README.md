@@ -287,9 +287,9 @@ SOP Menjalankan main.py
 - Pastikan Semua Terpasang: Pastikan ref1.jpg dan ref2.jpg, serta video capture sudah diatur ke webcam.
 - Jalankan ROS: Pastikan roscore dan DobotServer sudah berjalan.
 - Jalankan main.py: Jalankan main.py dan lalu posisikan robot dengan koordinat berikut command nya,
-  '''bash
-- rosservice call /DobotServer/SetPTPCmd "{ptpMode: 0, x: 0, y: 110, z: 0, r: 0}"
-  '''
+```bash
+rosservice call /DobotServer/SetPTPCmd "{ptpMode: 0, x: 0, y: 110, z: 0, r: 0}"
+````
 - pastikan tegak lurus dan sejajar dengan center point di kamera setelah itu,
 - tekan tombol "i" untuk memulai menekan 4 titik untuk menerapkan homography pada box.
 - Ulangi Deteksi: Tekan "r" untuk mengulang deteksi jika diperlukan.
