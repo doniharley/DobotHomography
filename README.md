@@ -1,6 +1,6 @@
 ### Panduan Singkat Instalasi dan Penggunaan
 
-#### 1. Instalasi ROS Melodic
+#### 1. Instalasi ROS Melodic (Lebih lanjut dan Lengkap ada di "setup.md")
 1. **Tambahkan Repository ROS**: Tambahkan repository ROS Melodic ke sistem Ubuntu Anda.
 2. **Instal ROS Melodic Desktop Full**: Instal versi lengkap ROS Melodic.
 3. **Inisialisasi rosdep**: Inisialisasi dan perbarui rosdep untuk mengelola dependensi ROS.
