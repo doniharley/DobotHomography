@@ -288,9 +288,9 @@ python PythonUI.py
 Gantilah `/path/to/your/python/script` dengan jalur aktual di mana `PythonUI.py` berada.
 
 **![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8-yX4_WMW13iEItzV9yKYxzHLSN-jMQI3uauDUc1vFimsGcwwdpoDP694IVotBz0QmPKJSHllFTBc1LgSD4kJqq-eSYg2tCQE7EcRxJqHA509bVZnQv3s-FvEned9GUsNXOPJVCWMi7-4zCkPnGrDF6o?key=xi09SMKGetAa6D1tbP737A)**
-**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf76d7v-m7ZBAoPoh95CJ8HLg9gouPZXrMqWHEADKIet0G9AK1oG3ENvvHsW2R2HluDpW_o_NTOI_LSTNdH39NxoGQHtbSCPbe5uReQk5y5Ss3FmoSnLNaG79mRXZjEVlfBTqgsLKrCkQ-U2pViJVBnr_B4?key=xi09SMKGetAa6D1tbP737A)
 
-**
+**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf76d7v-m7ZBAoPoh95CJ8HLg9gouPZXrMqWHEADKIet0G9AK1oG3ENvvHsW2R2HluDpW_o_NTOI_LSTNdH39NxoGQHtbSCPbe5uReQk5y5Ss3FmoSnLNaG79mRXZjEVlfBTqgsLKrCkQ-U2pViJVBnr_B4?key=xi09SMKGetAa6D1tbP737A)**
+
 tampilan PythonUI di linux dan berikut fitur-fitur yang ada:
 
 - **SetPTPParams** untuk mengatur akselerasi dan kecepatan gerakan lengan robot.
@@ -305,7 +305,7 @@ tampilan PythonUI di linux dan berikut fitur-fitur yang ada:
 
 Sekarang, setelah semuanya siap, Anda bisa mulai menggunakan program utama dengan berinteraksi melalui UI yang disediakan oleh `PythonUI.py`.
 
-SOP Menjalankan main.py/pythontairo
+SOP Menjalankan main.py
 - Pastikan Semua Terpasang: Pastikan ref1.jpg dan ref2.jpg, serta video capture sudah diatur ke webcam.
 - Jalankan ROS: Pastikan roscore dan DobotServer sudah berjalan.
 - Jalankan main.py: Jalankan main.py dan lalu posisikan robot dengan koordinat berikut command nya,
