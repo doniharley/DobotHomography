@@ -95,7 +95,7 @@ cd ~/catkin_ws
 catkin_make
 ```
 
-## 4. (Opsional) Clone dan Siapkan Paket RViz
+## 4. (Opsional) Clone dan Siapkan Paket RViz (gunakan ini jika repositori GitHub Dobot-Arm tidak dapat digunakan, dengan catatan harus mengganti direktori Dobot-Arm yang ada)
 
 ### 4.1. Clone Repository RViz
 
@@ -183,6 +183,28 @@ Setelah driver berhasil dikompilasi, instal dengan perintah:
 
 ```bash
 sudo make load
+```
+atau 
+
+```bash
+sudo insmod ch343.ko
+```
+untuk memuat/memasang driver secara dinamis  
+
+tambahan; untuk melepas driver ketik:
+```bash
+sudo make unload
+sudo rmmod ch343.ko
+```
+
+untuk menginstall driver permanen
+
+```bash
+sudo make install
+```
+untuk mengunistal
+```bash
+sudo make uninstall
 ```
 
 ### 6.3. Verifikasi Instalasi
@@ -283,7 +305,7 @@ tampilan PythonUI di linux dan berikut fitur-fitur yang ada:
 
 Sekarang, setelah semuanya siap, Anda bisa mulai menggunakan program utama dengan berinteraksi melalui UI yang disediakan oleh `PythonUI.py`.
 
-SOP Menjalankan main.py
+SOP Menjalankan main.py/pythontairo
 - Pastikan Semua Terpasang: Pastikan ref1.jpg dan ref2.jpg, serta video capture sudah diatur ke webcam.
 - Jalankan ROS: Pastikan roscore dan DobotServer sudah berjalan.
 - Jalankan main.py: Jalankan main.py dan lalu posisikan robot dengan koordinat berikut command nya,
